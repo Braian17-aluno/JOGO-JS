@@ -1,0 +1,62 @@
+.fundo {
+    border: 5px solid white;
+    min-height: 300px;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: none;
+    background-image: url(https://img.freepik.com/fotos-premium/estrelas-e-galaxia-espaco-sideral-ceu-noite-universo-preto_146539-811.jpg);
+}
+.Bpara, .Bmove, .Bmisc {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.painel {
+    border: 5px solid yellow;
+    padding: 5px;
+}
+body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: black;
+}
+#criar {
+    display: none;
+}
+.criar {
+    display: block;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    width: 50px;
+    height: 50px; 
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+#div2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px; 
+    background-color: green; 
+    text-align: center;
+}
+#div1 {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    width: 50px;
+    height: 50px; 
+    background-color: green; 
+    text-align: center;
+}
+@media (max-width: 600px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+}
